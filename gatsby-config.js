@@ -4,7 +4,7 @@ const config = require('./config/site');
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  pathPrefix: "/gatsby-starter-portfolio-emilia",
   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
   },
