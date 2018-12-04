@@ -48,6 +48,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
+    "gh-pages":"^2.0.1",
     "prettier": "^1.14.3"
   },
   "homepage": "https://github.com/LekoArts/gatsby-starter-portfolio-emilia#readme",
@@ -66,6 +67,7 @@
   "scripts": {
     "dev": "gatsby develop -o",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
   }
 }
